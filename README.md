@@ -1,5 +1,5 @@
 Overview
-AQ-IntelliSense is a self-built, privately funded air quality monitoring system that tracks multiple environmental parameters in real time using an ESP32 microcontroller and displays them on a 0.96" OLED screen.
+AQ-IntelliSense is a self-built, VC-funded air quality monitoring system that tracks multiple environmental parameters in real time using an ESP32 microcontroller and displays them on a 0.96" OLED screen.
 
 Parameters Monitored
 - CO₂ levels (MQ-135)
