@@ -1,5 +1,32 @@
-# AQ-IntelliSense
-A multi-sensor air quality monitoring system built with ESP32, tracking CO₂, CO, temperature, humidity and PM2.5 dust density in real time on an OLED display.
+Overview
+AQ-IntelliSense is a self-built, privately funded air quality monitoring system that tracks multiple environmental parameters in real time using an ESP32 microcontroller and displays them on a 0.96" OLED screen.
+
+Parameters Monitored
+- CO₂ levels (MQ-135)
+- CO levels (MQ-7)
+- Temperature & Humidity (DHT22)
+- Dust Density / PM2.5 (GP2Y1010AU0F)
+
+Features
+- Real-time sensor readings on OLED with smooth scrolling transitions
+- Non-blocking read intervals for all 4 sensors simultaneously
+- Manual R₀ calibration for MQ-135 and MQ-7 sensors
+- Voltage divider circuit for safe ESP32 ADC interfacing
+- Designed for scalable integration with additional sensors
+
+Hardware Used
+- ESP32-WROOM-32 38Pin Development Board
+- MQ-135 (CO₂), MQ-7 (CO), DHT22 (Temp/Humidity)
+- GP2Y1010AU0F Dust/PM2.5 Sensor
+- 0.96" OLED Display
+- 5V 2A External Power Supply
+- Breadboard, soldering wire and paste
+
+Tech
+- Firmware: Arduino C++ (ESP32)
+- Libraries: Adafruit SSD1306, Adafruit GFX, DHT
+
+Photos
 
 ![WhatsApp Image 2026-02-17 at 01 41 36](https://github.com/user-attachments/assets/1d2b86b4-7d37-4a9e-9365-8f46f9ad4efa)
 ![WhatsApp Image 2026-02-17 at 01 41 35](https://github.com/user-attachments/assets/02dce48c-13c0-48f5-ac2c-fe52b01c7184)
